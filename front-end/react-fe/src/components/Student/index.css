@@ -1,0 +1,16 @@
+.alert {
+  width: 75%;
+  margin: 20px auto !important;
+}
+
+.question-form {
+  width: 80%;
+  margin: 0 auto !important;
+}
+
+.question {
+  margin-top: 20px !important;
+  padding: 8px !important;
+  border-radius: 8px;
+  background-color: rgb(228, 224, 224);
+}

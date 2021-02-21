@@ -1,0 +1,11 @@
+.sign-area {
+  padding-top: 80px;
+}
+
+.sign-area > div {
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px 20px 0;
+  border: 1px solid #d3e0ea;
+  border-radius: 8px;
+}

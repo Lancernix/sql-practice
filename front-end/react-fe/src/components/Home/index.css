@@ -1,0 +1,21 @@
+.layout {
+  background-color: #fff !important;
+}
+#Home {
+  min-height: calc(100vh - 60px);
+  margin: 0 auto;
+  padding: 100px 20px 10px;
+}
+
+.welcome {
+  width: 500px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: x-large !important;
+}
+
+.info {
+  width: 400px;
+  margin: 20px auto 0 !important;
+  border-radius: 8px !important;
+}
