@@ -148,18 +148,23 @@ class Student extends Component {
             退出登录
           </Button>
         </Header>
-        <Content style={{ minHeight: 'calc(100vh - 120px)' }}>
+        <Content
+          style={{
+            minHeight: 'calc(100vh - 120px)',
+            backgroundColor: '#fdfdfd',
+          }}
+        >
           <Alert
-            description='题目只有一次提交机会，请认真作答后提交！建议粘贴整条 SQL 语句到输入框中，逐字输入可能会由于中英符号不同而影响答案的判定结果'
-            type='error'
+            message='题目只有一次提交机会，请认真作答后提交！建议粘贴整条 SQL 语句到输入框中，逐字输入可能会由于中英符号不同而影响答案的判定结果'
+            type='info'
             className='alert'
-            closable
           />
           <Divider style={{ marginBottom: 0 }} />
           <Card
             loading={this.state.isLoading}
             bodyStyle={{ padding: 10 }}
             bordered={false}
+            style={{ backgroundColor: 'inherit' }}
           >
             <Form
               className='question-form'

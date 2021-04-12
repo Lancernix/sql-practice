@@ -10,7 +10,8 @@ export default class Foot extends Component {
         style={{
           height: 60,
           textAlign: 'center',
-          backgroundColor: '#cccccc',
+          backgroundColor: '#001529',
+          color: 'white',
         }}
       >
         <p>有问题请联系：xxxxxxxx</p>

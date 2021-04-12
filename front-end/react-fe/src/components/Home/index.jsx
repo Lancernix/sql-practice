@@ -18,7 +18,10 @@ class Home extends Component {
             type='info'
             className='welcome'
           />
-          <Card className='info'>
+          <Card
+            className='info'
+            style={{ boxShadow: '0 0 10px rgba(0, 64, 128, 20%)' }}
+          >
             {user.no ? (
               <>
                 <p>
@@ -26,11 +29,11 @@ class Home extends Component {
                   {user.isSuper ? '管理员' : '学生'}
                 </p>
                 {user.isSuper ? (
-                  <p>
+                  <p style={{ margin: 0 }}>
                     前去<Link to='/teacher'>管理员详情页</Link>
                   </p>
                 ) : (
-                  <p>
+                  <p style={{ margin: 0 }}>
                     前去<Link to='/student'>答题页面</Link>
                   </p>
                 )}

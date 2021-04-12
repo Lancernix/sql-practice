@@ -1,5 +1,5 @@
 .alert {
-  width: 75%;
+  width: 60%;
   margin: 20px auto !important;
 }
 
@@ -10,7 +10,8 @@
 
 .question {
   margin-top: 20px !important;
-  padding: 8px !important;
+  padding: 12px !important;
   border-radius: 8px;
-  background-color: rgb(228, 224, 224);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 64, 128, 20%);
 }
